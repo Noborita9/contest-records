@@ -1,0 +1,7 @@
+# Ignore all text files
+
+# Ignore compiled C++ executables (files without extension)
+*
+!*.cpp
+!*.md
+!*/
