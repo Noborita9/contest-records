@@ -56,7 +56,7 @@ void solve()
         if (ds.find(u)==ds.find(0)&&ds.find(0)==ds.find(n-1)){
             ans=min(ans,ds.cheap[ds.find(0)]+w);
         }
-    }
+    } 
     cout << ans << "\n";
 }
 
